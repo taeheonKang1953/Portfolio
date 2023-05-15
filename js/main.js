@@ -34,7 +34,8 @@ $(window).on('load', function() {
 		$('.main-site-warp').removeClass('push-side');
 		
 		setTimeout(function(){
-			$('body').removeClass('push-side');		
+			$('body').removeClass('push-side');
+			
 		}, 400);
 	});
 

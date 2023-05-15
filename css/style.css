@@ -481,6 +481,8 @@ body.push-side #ascrail2000-hr {
 	transition: all 0.4s;
 }
 
+.cop.push-side {transform: translateX(600px); transition: all 0.4s; overflow: hidden;}
+
 .site-menu-warp {
 	position: fixed;
 	width: 500px;
@@ -687,7 +689,7 @@ body.push-side #ascrail2000-hr {
 	width: 614px;
 	left: 0;
 	bottom: 0;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	padding-left: 145px;
 	padding-top: 20px;
 }
